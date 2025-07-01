@@ -1,0 +1,18 @@
+{
+  "name": "personal-bot-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@qdrant/js-client-rest": "^1.2.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "langchain": "^0.1.20",
+    "node-fetch": "^3.3.2"
+  }
+}
